@@ -12,6 +12,9 @@
   font: weight 65px;;
   font-style: bold;
 }
+body{
+   justify-items: center;
+}
 header{
     background-image: url(./B12A01-landing-launchpad/Assets/Hero-bg.png);
     width: 1200px;
@@ -74,11 +77,61 @@ justify-items: center;
 .section-description{
     font-size: 25px;
     color: #757575;
-
 }
-
 .image-style{
     width: 403px;
     height: 328px;
     border-radius: 48px;
+}
+    
+
+.stats-container {
+  text-align: center;
+  padding: 60px 20px;
+  width: 1140px;
+  height: 380px;
+  border-radius: 24px;
+  
+ 
+ 
+  background-color: #e5e7ff;
+}
+
+
+.stats-container h2 {
+  color: #1d1d1f;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 48px;
+ 
+}
+
+.stats-box {
+  
+  padding: 80px 50px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 158px;
+
+  
+}
+
+.stat-item {
+  text-align: center;
+  min-width: 100px;
+ 
+
+}
+
+.stat-item h3 {
+  font-size: 28px;
+  color: #4d4dff;
+  margin-bottom: 5px;
+    font-size: 80px;
+}
+
+.stat-item p {
+  font-size: 20px;
+  color: #666;
 }
