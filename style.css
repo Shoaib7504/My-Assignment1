@@ -287,6 +287,45 @@ input, textarea {
   background-color: #3b4edc;
   cursor: pointer;
 }
+.footer-section{
+  width: 1440px;
+  height: 428px;
+}
 
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 100px;
+  color: #4b40f7;
+  margin-bottom: 10px;
+}
+
+.description {
+  color:#8987A1;
+  font-size: 14px;
+  text-align: center;
+  margin: 0 auto 20px;
+}
+nav{
+  display: flex;
+ justify-items: center;
+   
+}
+
+nav ul {
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 10px;
+   
+}
+nav li a{
+    text-decoration: none;
+    color:#8987A1;
+}
 
 
