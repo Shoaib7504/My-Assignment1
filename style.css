@@ -44,6 +44,9 @@ nav ul li{
    cursor: pointer;
    
 }
+.button-style:hover{
+  background-color: rgb(196, 157, 98);
+}
 
 .banner-content{
     text-align: center;
@@ -72,6 +75,9 @@ justify-items: center;
   padding: 27px 15px;
   cursor: pointer;
   border-radius: 6px;
+}
+.btn:hover{
+  background-color: rgb(196, 157, 98);
 }
 
 .action-title{
@@ -143,9 +149,22 @@ justify-items: center;
   color: #666;
 }
 .testimonials {
+  
   background: #fff;
-  padding: 40px 20px;
+ width: 1140px;
+ height: 342px;
+ gap: 50px;
   text-align: center;
+  margin: 50px 0;
+}
+.testimonial-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.stars{
+  gap: 4px;
 }
 
 .cards {
@@ -170,6 +189,7 @@ justify-items: center;
   background-color: #FFFFFF;
   gap: 20px;
   border-radius: 14px;
+  margin-top: 100px;
 }
 .focus-header{
   font-size: 50px;
@@ -188,6 +208,9 @@ color: #757575;
   border-radius: 10px;
   cursor: pointer;
 
+}
+.focus-btn:hover{
+  background-color: rgb(196, 157, 98);
 }
 .focus-image{
   width: 840px;
@@ -283,9 +306,8 @@ input, textarea {
   
 }
 
-.contact-form button:hover {
-  background-color: #3b4edc;
-  cursor: pointer;
+.contact-form button:hover{
+  background-color: rgb(196, 157, 98);
 }
 .footer-section{
   width: 1440px;
@@ -317,6 +339,7 @@ nav{
 
 nav ul {
     display: flex;
+   
 }
 nav li {
     list-style: none;
@@ -324,6 +347,7 @@ nav li {
    
 }
 nav li a{
+   align-content: center;
     text-decoration: none;
     color:#8987A1;
 }
